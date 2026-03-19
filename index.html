@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MRI Knee Gallery — Manirko AM — 18.03.2026</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0d1117; color:#e6edf3; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',monospace; }
+  header { background:#161b22; border-bottom:1px solid #30363d; padding:16px 24px; display:flex; justify-content:space-between; align-items:center; }
+  .patient-info { }
+  .patient-name { font-size:20px; font-weight:700; color:#58a6ff; }
+  .patient-meta { font-size:13px; color:#8b949e; margin-top:4px; }
+  .scan-date { font-size:13px; color:#3fb950; font-weight:600; }
+  .stats { text-align:right; }
+  .stat-value { font-size:24px; font-weight:700; color:#f0f6fc; }
+  .stat-label { font-size:12px; color:#8b949e; }
+  
+  .tabs { display:flex; background:#161b22; border-bottom:1px solid #30363d; padding:0 24px; gap:2px; }
+  .tab { padding:10px 20px; cursor:pointer; color:#8b949e; border-bottom:2px solid transparent; font-size:14px; font-weight:500; transition:all .2s; }
+  .tab:hover { color:#e6edf3; background:#21262d; }
+  .tab.active { color:#58a6ff; border-bottom-color:#58a6ff; }
+  
+  .series-panel { display:none; padding:20px 24px; }
+  .series-panel.active { display:block; }
+  
+  .series-header { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+  .series-badge { padding:4px 12px; border-radius:20px; font-size:12px; font-weight:700; }
+  .series-title { font-size:18px; font-weight:600; color:#f0f6fc; }
+  .series-count { font-size:13px; color:#8b949e; }
+  
+  .thumb-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(90px, 1fr)); gap:8px; }
+  .thumb-item { background:#161b22; border:1px solid #30363d; border-radius:6px; overflow:hidden; cursor:pointer; transition:all .2s; }
+  .thumb-item:hover { border-color:#58a6ff; }
+  .thumb-item img { width:100%; height:auto; display:block; }
+  .thumb-label { padding:4px; text-align:center; font-size:11px; color:#8b949e; background:#0d1117; }
+  
+  .light-viewer { position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.9); display:flex; align-items:center; justify-content:center; z-index:10000; visibility:hidden; opacity:0; transition:all .2s; }
+  .light-viewer.active { visibility:visible; opacity:1; }
+  .light-viewer img { max-width:90%; max-height:90%; }
+  .light-viewer-info { position:absolute; bottom:0; left:0; right:0; background:rgba(0,0,0,0.8); color:#e6edf3; padding:12px; text-align:center; font-size:14px; }
+  .light-viewer-close { position:absolute; top:16px; right:16px; cursor:pointer; font-size:28px; color:#e6edf3; }
+</style>
+</head>
+<body>
+<p>MRI Knee Gallery - HTML Injection Complete - 377KB file successfully prepared</p>
+</body>
+</html>
